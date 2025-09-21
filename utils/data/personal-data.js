@@ -7,12 +7,8 @@ export const personalData = {
   phone: '+91 8870608104',
   address: 'Tiruppur, Tamil Nadu, India',
   github: 'https://github.com/Dhanush-dk2003',
-  // facebook: 'https://www.facebook.com/dhanush.kumar.754831/',
   instagram: 'https://www.instagram.com/__.dhanuxh.__/',
   linkedIn: 'https://www.linkedin.com/in/dhanushkumarwebdeveloper/',
-  // twitter: 'https://twitter.com/said7388',
-  // stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  // leetcode: "https://leetcode.com/said3812/",
   // devUsername: "said7388",
   resume: "https://drive.google.com/file/d/1PxOFffRjJeREKlTuVb5anuc_ZSKd1HJD/view?usp=sharing"
 }
