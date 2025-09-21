@@ -1,40 +1,42 @@
 export const projectsData = [
     {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
+    id: 1,
+    name: 'Zenspaces',
+    description: "Built a responsive marketing website for Zenspaces, a construction & interior design company. Implemented pixel-perfect layouts with HTML, CSS (including responsive Grid/Flexbox) and vanilla JavaScript for interactive sections (project gallery, contact form, smooth scrolling, and lightbox). Integrated an admin contact endpoint to capture leads and used progressive enhancement to ensure accessibility and fast load times. Optimized images and implemented lazy loading for better performance.",
+    tools: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design', 'Lazy Loading', 'Accessibility'],
+    role: 'Frontend Developer',
+    code: '',
+    demo: 'https://zen-spaces-new-website.vercel.app/',
+},
+{
+    id: 2,
+    name: 'CRM (RBAC): Client Management System',
+    description: "Developed a role-based Client Relationship Management system that handles client profiles, interactions, sales pipelines, and reporting. Designed the relational data model in PostgreSQL, built a RESTful API using Express.js and Node.js with JWT-based authentication and granular RBAC (admin, manager, sales). Implemented a React.js SPA frontend with data tables, filters, activity timelines, and Excel export. Added audit logging, pagination, and optimized queries for large datasets.",
+    tools: ['PostgreSQL', 'Express.js', 'Node.js', 'React.js', 'JWT', 'Prisma','Auth'],
+    role: 'Full Stack Developer',
+    code: '',
+    demo: 'https://crm.sellerfly.in',
+},
+{
+    id: 3,
+    name: 'Employee Management Tool',
+    description: "Built a Human Resource Management system to manage employee records, roles, departments, payroll metadata, and document uploads. Backend implemented with Express.js and PostgreSQL exposing secure APIs for CRUD, bulk imports, and role-based access. Frontend is a React.js dashboard with employee directory, profile pages, file management, and an approval workflow for leaves and reimbursements. Implemented server-side validation, file storage, and exportable HR reports.",
+    tools: ['PostgreSQL', 'Express.js', 'Node.js', 'React.js', 'React Hook Form', 'Auth'],
+    role: 'Full Stack Developer',
+    code: '',
+    demo: 'https://crm.sellerfly.in',
+},
+{
+    id: 4,
+    name: 'Attendance Tracker',
+    description: "Created an attendance tracking system for organizations to record check-ins/check-outs, shift schedules,Salary Calculation and timesheet exports. Backend uses PostgreSQL and Express.js with endpoints for device-based check-ins, and admin overrides. Frontend built with React.js offering real-time dashboards, daily summaries, filtering, and Excel/PDF export. Added cron jobs for nightly report generation and integrated role-based permissions to manage approvals and corrections.",
+    tools: ['PostgreSQL', 'Express.js', 'Node.js', 'React.js', 'JWT', 'JsPDF (PDF export)'],
+    role: 'Full Stack Developer',
+    code: '',
+    demo: 'https://crm.sellerfly.in',
+},
+
+
 ];
 
 
