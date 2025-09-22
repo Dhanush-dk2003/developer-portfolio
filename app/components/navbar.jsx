@@ -11,8 +11,8 @@ function Navbar() {
           
           <div className="relative w-40 h-16 ml-2">
   <Image
-    src="/Logo1.png"
-    alt="Logo"
+    src="/DkLogo.png"
+    alt="DK"
     fill
     className="object-contain"
   />

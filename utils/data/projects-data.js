@@ -10,7 +10,7 @@ export const projectsData = [
 },
 {
     id: 2,
-    name: 'CRM (RBAC): Client Management System',
+    name: 'Client Management System',
     description: "Developed a role-based Client Relationship Management system that handles client profiles, interactions, sales pipelines, and reporting. Designed the relational data model in PostgreSQL, built a RESTful API using Express.js and Node.js with JWT-based authentication and granular RBAC (admin, manager, sales). Implemented a React.js SPA frontend with data tables, filters, activity timelines, and Excel export. Added audit logging, pagination, and optimized queries for large datasets.",
     tools: ['PostgreSQL', 'Express.js', 'Node.js', 'React.js', 'JWT', 'Prisma','Auth'],
     role: 'Full Stack Developer',
