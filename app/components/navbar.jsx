@@ -1,5 +1,6 @@
 // @flow strict
 import Link from "next/link";
+import Image from "next/image";
 
 
 function Navbar() {
@@ -8,7 +9,16 @@ function Navbar() {
       <div className="flex items-center justify-between py-5">
         <div className="flex flex-shrink-0 items-center">
           
-          <img src="/Logo1.png" alt="Logo" className="ml-2 h-18 w-28" />
+          <div className="relative w-40 h-16 ml-2">
+  <Image
+    src="/Logo1.png"
+    alt="Logo"
+    fill
+    className="object-contain"
+  />
+</div>
+
+
         </div>
 
         <ul className="mt-4 flex h-screen max-h-0 w-full flex-col items-start text-sm opacity-0 md:mt-0 md:h-auto md:max-h-screen md:w-auto md:flex-row md:space-x-1 md:border-0 md:opacity-100" id="navbar-default">
